@@ -1,0 +1,45 @@
+<LinearLayout
+    android:id="@+id/id_drawerLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp">
+
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="程少"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="程少2"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
